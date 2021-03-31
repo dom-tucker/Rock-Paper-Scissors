@@ -1,0 +1,55 @@
+body {
+  background-color: #99EEBB;
+}
+
+p {
+  font-size: 50px;
+  font-family: "Calibri", serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.rock {
+  font-size: 25px;
+  font-family: "Calibri";
+  display: inline-block;
+  position: absolute;
+  margin-left: 20%;
+  border: 5px ridge;
+}
+
+.paper {
+  font-size: 25px;
+  font-family: "Calibri";
+  display: inline-block;
+  position: absolute;
+  margin-left: 43%;
+  border: 5px ridge;
+}
+
+.scissors {
+  font-size: 25px;
+  font-family: "Calibri";
+  display: inline-block;
+  position: absolute;
+  margin-left: 67%;
+  border: 5px ridge;
+}
+
+
+.scissors:hover {
+  background-color: coral;
+  cursor: pointer;
+}
+
+
+.rock:hover {
+  background-color: blue;
+  cursor: grabbing;
+}
+
+.paper:hover {
+  background-color: teal;
+  cursor: grab;
+}
